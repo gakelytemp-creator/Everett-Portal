@@ -1,4 +1,3 @@
-```markdown
 # Everett Portal
 
 > We founded the portal. We did not found the world.
