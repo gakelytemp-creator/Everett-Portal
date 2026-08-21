@@ -64,6 +64,19 @@ A fragment removed from its original context should still carry some trace of wh
 
 ## How the Alternate World Exists
 
+## White Papers
+
+The technical foundations of Everett Portal are published as short, versioned white papers.
+
+- [WP-001 — Morphing as a Causal Field](WHITEPAPERS/WP-001-CAUSAL-MORPHING-FIELD.md)
+- [WP-002 — Discrete Facts and Continuous Causal Propagation](WHITEPAPERS/WP-002-DISCRETE-FACTS-CONTINUOUS-CAUSALITY.md)
+- [WP-003 — World State and Generative Artifacts](WHITEPAPERS/WP-003-WORLD-STATE-AND-GENERATIVE-ARTIFACTS.md)
+
+These papers are working documents. Their history remains visible in Git.
+
+→ [Read the public working dialogue](https://github.com/gakelytemp-creator/Everett-Portal/discussions)
+
+
 Everett Portal does not attempt to simulate an entire Earth in advance.
 
 The world is generated **causally and on demand**.
