@@ -317,7 +317,7 @@ The public portal, archive browser and Everett Radio interface will live at:
 
 The GitHub repository remains the canonical source for white papers, protocols, human-readable design history, public review, and exported snapshots.
 
-Noepedia is intended to become the live structured store for branch state, scoped relations, provenance, artifact identities, birth events, revisions, and relational search. These roles are complementary rather than competing.
+Noepedia is intended to become the live structured store for branch state, relation networks, provenance, artifact identities, birth events, revisions, and relational search. Branch, time, version, and provenance are represented through the same ordinary SPO machinery rather than by changing the tuple format. These roles are complementary rather than competing.
 
 ---
 
