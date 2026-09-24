@@ -8,7 +8,7 @@ The key rule is:
 
 > **Canonical in a branch does not mean observed in our world.**
 
-Every branch assertion must remain scoped and provenance-bearing.
+Every branch relation must remain connected, through ordinary SPO paths, to the branch/time/version/provenance context in which it holds.
 
 ---
 
@@ -80,21 +80,33 @@ The gate remains fallible and measurable.
 
 ---
 
-## Scoped assertions
+## Branch context without changing the triplet format
 
-A bare triplet is insufficient for Everett.
+Noepedia does not need an Everett-specific tuple.
 
-Conceptually:
+The same storage form remains:
 
 ~~~text
 SUBJECT ── PREDICATE ──> OBJECT
-        @
-WORLD / BRANCH / TIME / WORLD_VERSION / RULESET_VERSION
 ~~~
 
-The relation can therefore be valid in one branch and invalid in another without creating a false contradiction.
+World, branch, time, version, provenance, and canon status are themselves objects and predicates in the same homoiconic field.
 
-This also prevents **branch leakage**.
+For example:
+
+~~~text
+NETWORK_41 → VALID_IN → EVERETT_BRANCH
+NETWORK_41 → VALID_DURING → INTERVAL_1994
+NETWORK_41 → USES_WORLD_VERSION → WORLD_V7
+NETWORK_41 → HAS_STATUS → CANON
+NETWORK_41 → HAS_PROVENANCE → ADMISSION_88
+~~~
+
+Every line is another SPO triplet.
+
+The network handle is itself an object, so the field can describe the conditions of its own relations without adding metadata columns or an extended tuple.
+
+This is what prevents **branch leakage** while preserving one homogeneous data model.
 
 ---
 
@@ -206,7 +218,7 @@ The detailed pilot requirements are maintained in Noepedia:
 
 > **Everett defines the worlds.**
 >
-> **Noepedia preserves their scoped structure.**
+> **Noepedia preserves their structure and the ordinary relational paths that locate each branch in context.**
 >
 > **The Consistency Gate checks branch admission.**
 >
