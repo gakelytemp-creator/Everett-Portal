@@ -68,6 +68,8 @@ A fragment removed from its original context should still carry some trace of wh
 
 The technical foundations of Everett Portal are published as short, versioned white papers.
 
+Everett Portal is also intended to use **[Noepedia](https://github.com/gakelytemp-creator/Noepedia)** as its live structured world-state, provenance, and relational-search layer. The integration is described in [NOEPEDIA_INTEGRATION.md](NOEPEDIA_INTEGRATION.md).
+
 - [WP-001 — Morphing as a Causal Field](WHITEPAPERS/WP-001-CAUSAL-MORPHING-FIELD.md)
 - [WP-002 — Discrete Facts and Continuous Causal Propagation](WHITEPAPERS/WP-002-DISCRETE-FACTS-CONTINUOUS-CAUSALITY.md)
 - [WP-003 — World State and Generative Artifacts](WHITEPAPERS/WP-003-WORLD-STATE-AND-GENERATIVE-ARTIFACTS.md)
@@ -175,6 +177,8 @@ The band may lead back to a divergence decades earlier.
 
 The archive grows by following these causal paths.
 
+When Noepedia is used, a generator should receive only the task-relevant branch cut it needs. It should not own or silently rewrite the persistent world state.
+
 ---
 
 ## Other Transmissions
@@ -246,6 +250,26 @@ They may not arbitrarily rewrite historical outcomes.
 
 ---
 
+## Noepedia and the Consistency Gate
+
+Everett Portal's Consistency Gate should not be confused with Noepedia's Socratic Daimonion.
+
+The **Daimonion** is the general transaction boundary around the persistent Noepedia field.
+
+The **Consistency Gate** is an Everett-specific admission service used when an event or artifact seeks entry into one branch's canon.
+
+The Daimonion may invoke exact typed checks, causal-neighborhood retrieval, identity/one-birth checks, semantic comparison, novelty checks, confidence estimation, or escalation. The gate remains fallible and measurable.
+
+A crucial boundary is:
+
+> **CANON_IN_BRANCH ≠ OBSERVED_IN_OUR_WORLD**
+
+A canonical Everett fact is binding inside that branch/version. It is not thereby evidence about our actual history.
+
+See [NOEPEDIA_INTEGRATION.md](NOEPEDIA_INTEGRATION.md) and the detailed [Noepedia Everett pilot](https://github.com/gakelytemp-creator/Noepedia/blob/main/PILOT_EVERETT_PORTAL.md).
+
+---
+
 ## Funding and Accounting
 
 The project is intended to maintain transparent accounting.
@@ -291,7 +315,9 @@ The public portal, archive browser and Everett Radio interface will live at:
 
 **[gakelytemp-creator.github.io/Everett-Portal](https://gakelytemp-creator.github.io/Everett-Portal/)**
 
-The GitHub repository remains the canonical source for protocols, branch data, provenance and development history.
+The GitHub repository remains the canonical source for white papers, protocols, human-readable design history, public review, and exported snapshots.
+
+Noepedia is intended to become the live structured store for branch state, scoped relations, provenance, artifact identities, birth events, revisions, and relational search. These roles are complementary rather than competing.
 
 ---
 
