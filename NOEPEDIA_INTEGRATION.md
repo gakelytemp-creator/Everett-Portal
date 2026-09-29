@@ -56,7 +56,9 @@ revision history
 
 Everett clients and generators do not directly rewrite persistent branch state.
 
-The Daimonion mediates the transaction, retrieves the relevant branch cut, invokes domain-specific checks, preserves provenance, and controls admission or revision.
+The Daimonion mediates the transaction, reconstructs the requested branch scene, chooses or adapts a suitable mega-graph garment, retrieves the relevant branch cut, invokes domain-specific checks, preserves provenance, and controls admission or revision.
+
+A semantic request such as "1994 / Manchester / music / interview" is therefore not treated as a bag of keywords. It is a compressed transport surface for a semiotic scene: persons, institutions, geography, chronology, causal predecessors, branch commitments, artifact identities, and still-open regions may all be required before generation is allowed to proceed.
 
 ### Everett Consistency Gate
 
@@ -163,7 +165,9 @@ Unopened space remains OPEN.
 
 It is not fabricated in advance.
 
-The Daimonion can generate requirements for missing causal predecessors and then return a bounded branch-specific semiotic cut to the artifact generator.
+The Daimonion can generate requirements for missing causal predecessors, reconstruct the smallest coherent branch scene, and then return a bounded branch-specific semiotic cut to the artifact generator.
+
+A successful reconstruction may also expose a better branch rule, identity distinction, causal predicate, or reusable scene-building garment. Such results should return through Noepedia's audited revision path rather than disappearing with the generated artifact.
 
 ---
 
@@ -222,4 +226,4 @@ The detailed pilot requirements are maintained in Noepedia:
 >
 > **The Consistency Gate checks branch admission.**
 >
-> **The Daimonion guards the transaction and prevents silent world mixing.**
+> **The Daimonion reconstructs the branch scene, guards the transaction, and prevents silent world mixing.**
