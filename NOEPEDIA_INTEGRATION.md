@@ -56,9 +56,19 @@ revision history
 
 Everett clients and generators do not directly rewrite persistent branch state.
 
-The Daimonion mediates the transaction, reconstructs the requested branch scene, chooses or adapts a suitable mega-graph garment, retrieves the relevant branch cut, invokes domain-specific checks, preserves provenance, and controls admission or revision.
+The Noepedia Daimonion boundary mediates the transaction, reconstructs the requested branch scene, retrieves the relevant branch cut, invokes domain-specific checks, preserves provenance, and controls admission or revision. Internally this work may be distributed across multiple layer-local Daimonion processes; Everett clients still see one accountable boundary.
 
 A semantic request such as "1994 / Manchester / music / interview" is therefore not treated as a bag of keywords. It is a compressed transport surface for a semiotic scene: persons, institutions, geography, chronology, causal predecessors, branch commitments, artifact identities, and still-open regions may all be required before generation is allowed to proceed.
+
+### Internal Daimonion multiplicity is opaque to Everett
+
+Everett should not coordinate Noepedia's internal process graph.
+
+Noepedia may split work across layer-local Daimonion instances, parallel logical processes, coalitions, or specialized workers. Those internal choices must not leak into Everett's canon semantics.
+
+Everett supplies branch context and domain rules. Noepedia returns auditable results through the same stable transaction boundary.
+
+---
 
 ### Everett Consistency Gate
 
