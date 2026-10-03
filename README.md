@@ -337,3 +337,29 @@ The rest of the world may remain on the other side.
 
 **First transmission pending.**
 ```
+
+---
+
+## Ecosystem Boundary: Everett Portal vs Noepedia
+
+Everett Portal owns the **counterfactual-world domain**: branch rules, Point of Divergence, canon workflow, world versions, artifact generation, and the Everett-specific Consistency Gate.
+
+Noepedia owns the **persistent epistemic field** used to store, retrieve, compare, and revise branch-scoped relations with provenance.
+
+The Consistency Gate is therefore not another Socratic Daimonion.
+
+~~~text
+Everett candidate event / artifact
+        ↓
+Everett domain checks
+        ↓
+Noepedia mediated transaction
+        ↓
+branch-scoped knowledge / provenance / retrieval
+~~~
+
+Noepedia may internally run many layer-local Daimonion processes, coalitions, or parallel checks. Everett should not need to know or coordinate that internal topology.
+
+The reverse boundary matters too: Noepedia should not silently insert itself into a protected Everett generation or canon procedure unless that interaction is explicitly part of the domain protocol.
+
+> **Everett owns branch law. Noepedia owns persistent relational memory.**
